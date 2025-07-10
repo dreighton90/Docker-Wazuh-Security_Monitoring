@@ -37,7 +37,7 @@ This project is currently deployed locally, but is structured to scale into AWS 
 
 ---
 
-## 📸 Screenshots
+## 📸 Project Walkthrough
 
 _Images have been redacted to protect IP address info._
 
