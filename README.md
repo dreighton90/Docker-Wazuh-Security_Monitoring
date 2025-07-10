@@ -39,40 +39,40 @@ This project is currently deployed locally, but is structured to scale into AWS 
 
 ## 📸 Project Walkthrough
 
-![Ubuntu system update](screenshots/001_ubuntu_vm_update_upgrade.png)
+![Ubuntu system update](001_ubuntu_vm_update_upgrade.png)
 *System update on Ubuntu 24.04 VM*
 
-![Docker install success](screenshots/01_docker_install_succes.png)
+![Docker install success](01_docker_install_succes.png)
 *Docker installation successful*
 
-![Docker running check](screenshots/02_docker_installed_running.png)
+![Docker running check](02_docker_installed_running.png)
 *Verified Docker is running*
 
-![Docker Compose installed](screenshots/03_docker_compose_installed.png)
+![Docker Compose installed](03_docker_compose_installed.png)
 *Docker Compose installed*
 
-![NGINX container running](screenshots/03-container-running-nginx.png)
+![NGINX container running](03-container-running-nginx.png)
 *NGINX container launched successfully*
 
-![NGINX accessible via localhost](screenshots/04-nginx-docker-success-localhost.png)
+![NGINX accessible via localhost](04-nginx-docker-success-localhost.png)
 *Verified NGINX container via localhost in browser*
 
-![Agent install](screenshots/Wazuh_Agent_Install_Redacted.PNG)
+![Agent install](Wazuh_Agent_Install_Redacted.PNG)
 *Installing Wazuh agent on Ubuntu*
 
-![Agent config file](screenshots/Wazuh_Ossec_Config_Redacted.PNG)
+![Agent config file](Wazuh_Ossec_Config_Redacted.PNG)
 *Configured agent to connect to Wazuh manager*
 
-![Agent enabled](screenshots/Wazuh_Agent_Enable_and_Stated.png)
+![Agent enabled](Wazuh_Agent_Enable_and_Stated.png)
 *Wazuh agent enabled and running*
 
-![Server login success](screenshots/Successful_Wazuh_Server_Login_Redacted.PNG)
+![Server login success](Successful_Wazuh_Server_Login_Redacted.PNG)
 *Successful login to Wazuh server after agent registration*
 
-![Dashboard login screen](screenshots/Wazuh_Dashboard_Login_Redacted.PNG)
+![Dashboard login screen](Wazuh_Dashboard_Login_Redacted.PNG)
 *Wazuh dashboard login interface*
 
-![Dashboard overview](screenshots/Wazuh_Dashboard_Overview_Redacted.PNG)
+![Dashboard overview](Wazuh_Dashboard_Overview_Redacted.PNG)
 *Wazuh SIEM dashboard showing active alerts and security modules*
 
 ---
