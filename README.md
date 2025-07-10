@@ -39,50 +39,32 @@ This project is currently deployed locally, but is structured to scale into AWS 
 
 ## 📸 Project Walkthrough
 
-![Ubuntu system update](project%20walkthrough/001_ubuntu_vm_update_upgrade.png)
-*System update on Ubuntu 24.04 VM*
+### Ubuntu & Docker Setup
 
-![Docker install success](project%20walkthrough/01_docker_install_succes.png)
-*Docker installation successful*
+![Update & Upgrade](project-walkthrough/001_ubuntu_vm_update_upgrade.png)
+![Docker Install Success](project-walkthrough/01_docker_install_succes.png)
+![Docker Running](project-walkthrough/02_docker_installed_running.png)
+![Docker Compose Installed](project-walkthrough/03_docker_compose_installed.png)
+![NGINX Running](project-walkthrough/03-container-running-nginx.png)
+![NGINX Localhost Success](project-walkthrough/04-nginx-docker-success-localhost.png)
 
-![Docker running check](project%20walkthrough/02_docker_installed_running.png)
-*Verified Docker is running*
+### Wazuh Agent + Server
 
-![Docker Compose installed](project%20walkthrough/03_docker_compose_installed.png)
-*Docker Compose installed*
+![Agent Install](project-walkthrough/Wazuh_Agent_Install_Redacted.PNG)
+![Agent Enabled](project-walkthrough/Wazuh_Agent_Enable_and_Stated.png)
+![ossec.conf](project-walkthrough/Wazuh_Ossec_Config_Redacted.PNG)
+![Wazuh CLI Login](project-walkthrough/Wazuh_CLI_Login.png)
+![Wazuh Server Login](project-walkthrough/Successful_Wazuh_Server_Login_Redacted.PNG)
+![Wazuh Server Boot Trace](project-walkthrough/Wazuh_Server_booting-Kernel-Trace.png)
 
-![NGINX container running](project%20walkthrough/03-container-running-nginx.png)
-*NGINX container launched successfully*
+### Wazuh Dashboard
 
-![NGINX accessible via localhost](project%20walkthrough/04-nginx-docker-success-localhost.png)
-*Verified NGINX container via localhost in browser*
+![Wazuh Login Screen](project-walkthrough/Wazuh_Login_Screen.png)
+![Dashboard Login](project-walkthrough/Wazuh_Dashboard_Login_Redacted.PNG)
+![Dashboard Overview](project-walkthrough/Wazuh_Dashboard_Overview_Redacted.PNG)
 
-![Wazuh VM login screen](project%20walkthrough/Wazuh_Login_Screen.png)
-*Initial Wazuh server login screen (OVA)*
 
-![Wazuh boot trace](project%20walkthrough/Wazuh_Server_booting-Kernel-Trace.png)
-*Kernel-level boot trace output*
 
-![Wazuh CLI login](project%20walkthrough/Wazuh_CLI_Login.png)
-*CLI login into Wazuh server VM*
-
-![Agent install](project%20walkthrough/Wazuh_Agent_Install_Redacted.PNG)
-*Installing Wazuh agent on Ubuntu*
-
-![Agent config file](project%20walkthrough/Wazuh_Ossec_Config_Redacted.PNG)
-*Configured agent to connect to Wazuh manager*
-
-![Agent enabled](project%20walkthrough/Wazuh_Agent_Enable_and_Stated.png)
-*Wazuh agent enabled and running*
-
-![Server login success](project%20walkthrough/Successful_Wazuh_Server_Login_Redacted.PNG)
-*Successful login to Wazuh server after agent registration*
-
-![Dashboard login screen](project%20walkthrough/Wazuh_Dashboard_Login_Redacted.PNG)
-*Wazuh dashboard login interface*
-
-![Dashboard overview](project%20walkthrough/Wazuh_Dashboard_Overview_Redacted.PNG)
-*Wazuh SIEM dashboard showing active alerts and security modules*
 
 ---
 
